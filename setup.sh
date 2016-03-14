@@ -28,7 +28,7 @@ echo "mysql-server mysql-server/root_password_again password $MYSQL_ROOT_PW" | s
 sudo apt-get install -y git unzip lamp-server^ \
   libmail-imapclient-perl libmime-tools-perl libxml-simple-perl \
   libclass-dbi-mysql-perl libio-socket-inet6-perl libio-socket-ip-perl \
-  libperlio-gzip-perl
+  libperlio-gzip-perl libmail-box-perl
 
 
 ################
